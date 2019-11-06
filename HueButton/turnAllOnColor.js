@@ -1,5 +1,5 @@
 // To run:
-// $ node turnAllOn.js
+// $ node turnAllOnColor.js
 
 // This is for those using Phillips Hue lights that support color.
 
