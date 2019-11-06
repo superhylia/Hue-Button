@@ -1,7 +1,7 @@
 // To run:
-// $ node turnAllOff.js
+// $ node turnAllOffColor.js
 
-// This one is used for those who have Phillips Hue lights that support color.
+// This one is  for those using Phillips Hue lights that support color.
 
 "use strict";
 
