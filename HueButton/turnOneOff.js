@@ -1,5 +1,5 @@
 // To run:
-// $ node turnAllOff.js
+// $ node turnOneOff.js
 
 "use strict";
 
@@ -17,6 +17,7 @@ Cylon.robot({
 
   devices: {
     bulb1: { driver: "hue-light", lightId: 1 },
+    // You can change the lightId to whatever the light you want correlates to it. Visit https://support.intuiface.com/hc/en-us/articles/360016409212-Interface-Asset-Philips-hue-Lights for more information.
   },
 
   work: function(my) {
