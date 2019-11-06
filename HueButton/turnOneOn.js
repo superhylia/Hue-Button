@@ -1,6 +1,8 @@
 // To run:
 // $ node turnOneOn.js
 
+// This is for those that want the script to work with one Phillips Hue light.
+
 "use strict";
 
 var HOSTNAME = "192.168.0.101";
