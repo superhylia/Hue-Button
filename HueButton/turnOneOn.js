@@ -1,5 +1,5 @@
 // To run:
-// $ node turnAllOn.js
+// $ node turnOneOn.js
 
 "use strict";
 
@@ -17,6 +17,7 @@ Cylon.robot({
 
   devices: {
     bulb1: { driver: "hue-light", lightId: 1 },
+    // You can change the lightId to whatever the light you want correlates to it. Visit https://support.intuiface.com/hc/en-us/articles/360016409212-Interface-Asset-Philips-hue-Lights for more information.
   },
 
   work: function(my) {
@@ -25,5 +26,6 @@ Cylon.robot({
       my.devices[d].brightness(100);
     }
     my.bulb1.rgb(255,255,255); //white
+    // You can place whatever color you want in that space with the RGB code for those using Phillips Hue lights that support color.
   }
 }).start();
