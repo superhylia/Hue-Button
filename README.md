@@ -1,13 +1,13 @@
 ## Introduction
-Button that will use a Raspberry Pi to turn on Philips Hue Lights
+My engineering project is creating a button that will use a Raspberry Pi to turn on Philips Hue lights and creating a light switch overlay out of it. All credit goes to original forker. Some text might be added or changed by me.
 
 ## YouTube
-
+From original forker, its a good visual explanation of the process.
 YouTube: https://www.youtube.com/watch?v=SGacv8Jgf-8
 
 ## Set Up
 
-I am using a Raspberry Pi 2, but you should be able to use almost any version of the Raspberry Pi without issue.
+I am using a Raspberry Pi Zero WH, but you should be able to use almost any version of the Raspberry Pi without issue. I do recommend one with built-in WiFi, such as the Raspberry Pi 3, 3+, Zero W, Zero WH, and the Pi 4.
 
 Make sure you have node.js and npm installed first, as these scripts require it. Also make sure you have python, but most Pi's come with it installed.
 
