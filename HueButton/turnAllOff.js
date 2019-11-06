@@ -1,7 +1,7 @@
 // To run:
-// $ node turnAllOffColor.js
+// $ node turnAllOff.js
 
-// This one is  for those using Phillips Hue lights that support color.
+// This is for those that want the script to work with multiple Phillips Hue lights.
 
 "use strict";
 
@@ -25,6 +25,7 @@ Cylon.robot({
     bulb5: { driver: "hue-light", lightId: 5 },
     bulb6: { driver: "hue-light", lightId: 6 },
     bulb7: { driver: "hue-light", lightId: 7 }
+     // You can change the lightId to whatever the light you want correlates to it. Visit https://support.intuiface.com/hc/en-us/articles/360016409212-Interface-Asset-Philips-hue-Lights for more information.
   },
 
   work: function(my) {
