@@ -5,8 +5,8 @@
 
 "use strict";
 
-var HOSTNAME = "192.168.0.101";
-var USERNAME = "82bf6d045f12856fa06cb642cbff0e";
+var HOSTNAME = "192.168.1.215";
+var USERNAME = "001788fffe674b58";
 // Hostname is filled in with your Phillips Hue Bridge's IP address, which can be found at https://www.meethue.com/api/nupnp under the "internalipaddress"
 // Username is filled in with your Phillips Hue Bridge's ID, which can be found at https://www.meethue.com/api/nupnp under the "id"
 
